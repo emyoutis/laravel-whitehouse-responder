@@ -27,7 +27,11 @@
         "laravel": {
             "providers": [
                 "Emyoutis\\LaravelWhiteHouseResponder\\WhiteHouseResponderServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "WhiteHouseResponderResponse": "Emyoutis\\LaravelWhiteHouseResponder\\Facades\\Response",
+                "WhiteHouseResponderErrors": "Emyoutis\\LaravelWhiteHouseResponder\\Facades\\ErrorsRepository"
+            }
         }
     }
 }
