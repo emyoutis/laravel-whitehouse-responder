@@ -1,0 +1,25 @@
+{
+    "name": "emyoutis/laravel-whitehouse-responder",
+    "description": "A simple API for generating responses in WhiteHouse standards in Laravel.",
+    "type": "library",
+    "keywords": [
+        "API",
+        "WhiteHouse",
+        "Laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "EmiTis Yousefi",
+            "email": "emitis89@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Emyoutis\\": "src/"
+        }
+    },
+    "require": {
+        "emyoutis/whitehouse-responder": "dev-master"
+    }
+}
