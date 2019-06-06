@@ -20,7 +20,7 @@
         }
     },
     "require": {
-        "emyoutis/whitehouse-responder": "dev-master",
+        "emyoutis/whitehouse-responder": "1.0",
         "laravel/framework": "~5.1"
     },
     "extra": {
