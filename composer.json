@@ -22,5 +22,12 @@
     "require": {
         "emyoutis/whitehouse-responder": "dev-master",
         "laravel/framework": "~5.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Emyoutis\\LaravelWhiteHouseResponder\\WhiteHouseResponderServiceProvider"
+            ]
+        }
     }
 }
