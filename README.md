@@ -1,6 +1,7 @@
 # WhiteHouse Responder
 
 This package provides some tools to generate API responses based on the [White House Standards](https://github.com/WhiteHouse/api-standards) in Laravel.
+
 :bulb: In this package, [this PHP package](https://github.com/emyoutis/whitehouse-responder) is being used.
 
 ## Installation
